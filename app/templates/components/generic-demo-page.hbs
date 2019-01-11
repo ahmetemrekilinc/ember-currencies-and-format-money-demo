@@ -1,0 +1,18 @@
+{{name}}
+<button onclick={{action "toggleCollapse"}} >
+  {{#if collapsed}}
+    Show Source Code
+  {{else}}
+    Hide Source Code
+  {{/if}}
+</button>
+
+<div style={{if collapsed "visibility: hidden;height: 0px;" ""}} >
+  {{#each filesToDisplay as |file|}}
+    {{file}}
+    {{code-snippet name=file}}
+  {{/each}}
+</div>
+<br>
+{{yield}}
+<br>
