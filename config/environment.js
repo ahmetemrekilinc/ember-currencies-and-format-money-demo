@@ -44,7 +44,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.rootURL = '/ember-currencies-and-format-money-demo';
+    // here you can enable a production-specific feature
   }
 
   return ENV;

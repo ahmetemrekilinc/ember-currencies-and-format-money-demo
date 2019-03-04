@@ -1,6 +1,5 @@
 //BEGIN-SNIPPET showcase
 import Component from '@ember/component';
-import {set} from '@ember/object';
 import { currenciesArray } from 'ember-currencies-and-format-money/currencies';
 
 export default Component.extend({
