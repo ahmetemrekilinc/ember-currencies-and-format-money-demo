@@ -10,7 +10,9 @@
 <div style={{if collapsed "visibility: hidden;height: 0px;" ""}} >
   {{#each filesToDisplay as |file|}}
     {{file}}
-    {{code-snippet name=file}}
+    {{#let (get-code-snippet file unindent=false) as |snippet|}}
+      <pre class={{snippet.language}}>{{snippet.source}}</pre>
+    {{/let}}
   {{/each}}
 </div>
 <br>
