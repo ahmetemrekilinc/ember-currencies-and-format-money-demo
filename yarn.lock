@@ -3759,10 +3759,10 @@ ember-concurrency@^1.0.0:
     ember-compatibility-helpers "^1.2.0"
     ember-maybe-import-regenerator "^0.1.6"
 
-ember-currencies-and-format-money@3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/ember-currencies-and-format-money/-/ember-currencies-and-format-money-3.5.0.tgz#ccca7f067c2f3b0dd20da18e67d68d90021c0eaa"
-  integrity sha512-urJMTEkSPzan3+x3XCA4qBkMa5xKE7IJKTc/s5Qb6GHqaoRHiWRXyk1y48jwGcR9wH3wHuioIeeS9rS7fz9PtA==
+ember-currencies-and-format-money@3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/ember-currencies-and-format-money/-/ember-currencies-and-format-money-3.5.1.tgz#03462b614b4c7aa8f50e557885ed45aee333d521"
+  integrity sha512-BCqj+k631vpI3Qy+4tDR1M9ZBsxkiTelXTlZHy9CtIMrAF7CR7JQEL3zV3OX2LkST1mG7hR23B1hu/56FUxHqA==
   dependencies:
     ember-cli-babel "7.7.3"
 
@@ -6244,12 +6244,7 @@ lodash.values@~2.3.0:
   dependencies:
     lodash.keys "~2.3.0"
 
-lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.3.0:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
-
-lodash@^4.17.13, lodash@^4.5.1:
+lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.4, lodash@^4.3.0, lodash@^4.5.1:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
