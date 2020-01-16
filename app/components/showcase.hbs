@@ -1,0 +1,15 @@
+<!-- //BEGIN-SNIPPET showcase -->
+<div>
+  <br>
+  Amount: <input type="number" value={{this.myMoneyValue.amount}} {{on "change" this.updateAmount}} {{on "input" this.updateAmount}} >
+  Currency:
+  <select {{on "change" this.updateCurrency}}>
+    <option>Please Select</option>
+    {{#each this.allCurrencies as |currency|}}
+      <option value={{currency.acronym}} selected={{if (eq this.myMoneyValue.currency currency.acronym) 'true'}} >{{currency.acronym}}</option>
+    {{/each}}
+  </select>
+  <br>
+  Formatted Amount: {{format-money myMoneyValue}}
+</div>
+<!-- //END-SNIPPET -->

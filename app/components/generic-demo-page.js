@@ -1,20 +1,17 @@
-import { computed } from '@ember/object';
-import Component from '@ember/component';
+import Component from '@glimmer/component';
+import { tracked } from '@glimmer/tracking';
+import { action } from '@ember/object';
 
-export default Component.extend({
-  filesToDisplay:computed('files', function(){
-    if (this.get('files')) {
-      return this.get('files').split(',');
-    }
+export default class GenericDemoPage extends Component {
 
-    return [];
-  }),
+  @tracked collapsed = true;
 
-  collapsed:true,
-
-  actions:{
-    toggleCollapse(){
-      this.toggleProperty('collapsed');
-    }
+  get filesToDisplay() {
+    return this.args.files ? this.args.files.split(',') : [];
   }
-});
+
+  @action
+  toggleCollapse() {
+    this.collapsed = !this.collapsed;
+  }
+}

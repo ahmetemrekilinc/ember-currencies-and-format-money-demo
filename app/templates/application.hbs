@@ -1,8 +1,10 @@
-<a href="https://github.com/ahmetemrekilinc/ember-currencies" target="_blank">Github</a>
-<a href="https://www.npmjs.com/package/ember-currencies-and-format-money" target="_blank">Npmjs</a>
+<div class="ember-view">
+  <a href="https://github.com/ahmetemrekilinc/ember-currencies" target="_blank" rel="noopener noreferrer">Github</a>
+  <a href="https://www.npmjs.com/package/ember-currencies-and-format-money" target="_blank" rel="noopener noreferrer">Npmjs</a>
 
-{{#generic-demo-page name='Example Usage of Format Money' files='showcase.hbs,showcase.js'}}
-  {{component 'showcase'}}
-{{/generic-demo-page}}
+  <GenericDemoPage @name="Example Usage of Format Money" @files="showcase.hbs,showcase.js">
+    <Showcase/>
+  </GenericDemoPage>
 
-{{outlet}}
+  {{outlet}}
+</div>
