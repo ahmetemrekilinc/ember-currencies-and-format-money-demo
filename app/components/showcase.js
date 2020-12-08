@@ -8,7 +8,7 @@ export default class Showcase extends Component {
 
   allCurrencies = currenciesArray;
 
-  @tracked myMoneyValue = {amount: 324, currency: 'USD'};
+  @tracked myMoneyValue = {amount: 325, currency: 'USD'};
 
   @action
   updateAmount(event){

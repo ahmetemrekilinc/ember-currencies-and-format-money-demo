@@ -4648,10 +4648,10 @@ ember-concurrency@^1.0.0:
     ember-compatibility-helpers "^1.2.0"
     ember-maybe-import-regenerator "^0.1.6"
 
-ember-currencies-and-format-money@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/ember-currencies-and-format-money/-/ember-currencies-and-format-money-4.1.0.tgz#fda36df81b4e14379744ca51d79e5c6ac1fdb462"
-  integrity sha512-/B6Slc7HrqGrjvYaGnpjgFBBhdRYKOYlSA8pLixOgZkuJsQMQB93a1VSyQt173ZcL5unwWHxnNk717sjoOaUfQ==
+ember-currencies-and-format-money@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/ember-currencies-and-format-money/-/ember-currencies-and-format-money-4.1.1.tgz#7acc0ad221f88c77de2f76eb48b285d813d8ebc9"
+  integrity sha512-KLqlgzJ/9aEcX3hdJzuTINhfvbWnIWPWfa9x5xROWYvdpSESYm4+T7G1sGVe6UaJspaDG9TH1+i/gBsp4Hq2cQ==
   dependencies:
     ember-cli-babel "7.13.0"
 
